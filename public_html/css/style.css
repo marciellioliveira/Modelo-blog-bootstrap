@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Blog Ensinando e Aprendendo
+    Created on : 23/08/2015, 13:33:11
+    Author     : Marcielli
+*/
+
+/*Selecionar texto e mudar de Cor*/
+
+*::-moz-selection {
+background:#9C2E30;  /*---Cor de fundo--*/
+color:white;   /*--cor da fonte--*/
+}
+*::selection {
+background:#9C2E30;  /*---Cor de fundo--*/
+color:white;   /*--cor da fonte--*/
+}
+
+/*Fim Selecionar texto e mudar de Cor*/
+
+a:hover{
+    color: #9C2E30;
+}
+
+/* NAVBAR - MENU */
+
+#navbar{
+    background-color: #9C2E30;    
+}
+
+#navbar a{
+    color: white;
+    font-weight: bold;
+}
+
+#navbar a:hover{
+    color:#9C2E30;
+    font-weight: bold;
+}
+
+#navbar-brand:hover{
+     background-color: black;
+}
+
+#navbar ul li:hover{
+    background-color: black;
+}
+
+
+
+//INDEX PAGINA INICIAL
+/* TITULO H1 */
+#container #row  #col-lg-8 #h1-titulo {
+    text-align: center;
+    color: #156182;  
+}
+
+/* THUMBNAIL POSTS */
+#container #row #thumb {
+    border-color: #156182;
+}
+
+/* H1 POST EM BAIXO THUMBNAIL PAGINA INICIAL INDEX */
+#container #row  #col-lg-8 #h1-tituloPost {
+    text-align: center;
+    color: #156182; 
+    font-size: 24px;
+}
+
+#container #row  #col-lg-8 #h1-tituloPost:hover{
+    color: #9C2E30;
+}
+
+/* P DO POST PAGINA INICIAL INDEX */
+#container #row  #col-lg-8 p {
+    font-size: 16px;
+}
+
+/* BOTÃO */
+.btn-primary {
+    background-color: #156182;     
+    border: none;
+    color: white; 
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+     background-color: #9C2E30;
+     color: white; 
+     font-weight: bold;
+     transition:all 0.3s ease;
+}
+
+.btn-default{
+    background-color: #156182;     
+    border: none;
+    color: white; 
+    font-weight: bold;
+}
+
+.btn-default:hover{
+     background-color: #9C2E30;
+     color: white; 
+     font-weight: bold;
+     transition:all 0.3s ease;
+}
+
+/* Input pesquisar*/
+
+.well .input-group input{
+  box-shadow: none;  
+  border-color: #156182;
+}
+
+.well .input-group input:focus{
+    border-color: #9C2E30;
+}
+
+/*botão de pesquisar*/
+.well .input-group #btn{
+    height: 34px;    
+}
+
+.well .input-group #btn:focus{
+    background-color: #156182;
+}
+
+/*Fim Input */
+
+/* Comentario da pagina inicial index*/
+
+.well .form-group textArea{
+    box-shadow: none;  
+  border-color: #156182;
+}
+
+.well .form-group textArea:focus{
+     border-color: #9C2E30;
+}
+
+/*Fim  Comentario da pagina inicial index*/
+
+/*RODAPE*/
+.row .col-lg-12 a{
+    text-align: center;
+    font-weight: bold;
+}
+
+#rodape img{
+    background-color: #156182;
+    border-radius: 40px;      
+}
+
+#rodape img:hover{
+    background-color: #9C2E30;
+    border-radius: 40px;
+    transition:all 0.3s ease;
+}
+
+/*FIM RODAPE*/
+
+//FIM INDEX PAGINA INICIAL
+
+//PAGINA SINGLE POST
+
+
+
+
+//FIM PAGINA SINGLE POST
+
+
+/* PAGINA CONTATO*/
+
+/*FIM PAGINA CONTATO*/
